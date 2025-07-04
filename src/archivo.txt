@@ -1,0 +1,5 @@
+1. ¿Qué modificadores son accesibles desde una subclase en otro paquete?
+2. ¿Qué modificadores permiten acceder desde cualquier clase del mismo paquete?
+3. ¿Qué pasaría si todos los atributos fueran `public`?
+
+
