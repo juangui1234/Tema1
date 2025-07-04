@@ -1,5 +1,20 @@
-1. ¿Qué modificadores son accesibles desde una subclase en otro paquete?
-2. ¿Qué modificadores permiten acceder desde cualquier clase del mismo paquete?
-3. ¿Qué pasaría si todos los atributos fueran `public`?
+1.2
 
+¿Que pasa si se envia una clase que hereda de Mascota?
+R:/ No funciona la compilacion, por que solo acepta metodos del tipo mascota
+
+¿Como se comporta si eliminas el instanceof y casteas directamente?
+R:/ El compilador permite el casteo si hay herencia, pero en runtime si no es de ese tipo
+java va a lanzar un ClassCastException
+
+1.3
+
+1. ¿Qué modificadores son accesibles desde una subclase en otro paquete?
+R:/ Public - Protect
+
+2. ¿Qué modificadores permiten acceder desde cualquier clase del mismo paquete?
+R:/ Se pueden acceder Public - protected y Default
+
+3. ¿Qué pasaría si todos los atributos fueran `public`?
+R:/ Tendrian accesibilidad desde cualquier paquete
 

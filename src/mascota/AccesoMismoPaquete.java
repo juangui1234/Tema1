@@ -2,7 +2,7 @@ package mascota;
 
 public class AccesoMismoPaquete {
     public static void main(String[] args) {
-        Mascota m = new Mascota();
+        Mascota m = new Mascota("Toby");
         // System.out.println(m.nombrePrivado); // Error
         System.out.println(m.nombreDefault);     // OK
         System.out.println(m.nombreProtegido);   // OK
